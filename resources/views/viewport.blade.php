@@ -20,6 +20,20 @@
 <a href="https://google.co.id"target="_parent">Google</a> |
 <a href="#">Halaman ini</a>
         <h2 style="color: #5304d2;" > Bantu Adaptasi Mahasiswa Baru, ITS Gelar Mentoring Agama Islam</h2>
+        <p>
+    Tonton video lengkap VIEWPORT dan NAVIGATION BAR di sini:
+    <a href="https://drive.google.com/drive/folders/1V2aAClUh66hJ1bWDqaC5wSWhsuejGFBB?usp=sharing" target="_blank">Klik Video Penjelasan</a>
+</p>
+<iframe width="560" height="315"
+    src="https://www.youtube.com/embed/C4lmIyfeheE"
+    title="Viewport"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+
+
         <p><i>Oleh : itsash | 18 | Source / ITS Online</i></p>
         <p>
             <img src="image/img2.jpg" alt="Manarul" width="460" height="345">

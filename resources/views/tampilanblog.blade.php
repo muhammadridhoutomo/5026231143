@@ -70,7 +70,7 @@
     </a>
     <a href="dua" class="card">
       <img src="image/tugas2.png" alt="VIEWPORT">
-      <p>Tugas 2: Viewport</p>
+      <p>Tugas 2: CSS</p>
     </a>
     <a href="tiga" class="card">
       <img src="image/tugas3.png" alt="SIDEBAR-BOOTSTRAP">
