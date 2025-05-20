@@ -97,7 +97,7 @@
         <div class="card shadow rounded-4" style="background-color: #e4effc;">
             <div class="text-left fw-bold p-3" style="color: grey;">Diterima </div>
             <div class="logo ps-3">
-                <img src="img/iconcek.png" alt="Image" class="rounded-circle img-logo" style="max-width: 20%; height: auto; margin-bottom: 20px; margin-right: 10px;">
+                <img src="image/iconcek.png" alt="Image" class="rounded-circle img-logo" style="max-width: 20%; height: auto; margin-bottom: 20px; margin-right: 10px;">
                 <span class="fs-1 fw-bold" style="color: #06ab3a;;">11</span>
             </div>
         </div>

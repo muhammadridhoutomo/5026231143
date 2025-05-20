@@ -60,8 +60,8 @@
 </head>
 <body>
 
-  <h1>Kumpulan Tugas Pemrograman Web</h1>
-    <h2 style="margin-top: -15px;">MUHAMMAD RIDHO UTOMO | 5026231143</h2>
+  <h1>Kumpulan Tugas Pemrograman Web (D)</h1>
+    <h3 style="margin-top: -20px;">MUHAMMAD RIDHO UTOMO | 5026231143</h3>
 
   <div class="container">
     <a href="satu" class="card">
