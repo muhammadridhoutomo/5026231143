@@ -41,18 +41,22 @@ Route::get('tiga', function () {
 });
 
 Route::get('empat', function () {
-	return view('js1');
+	return view('template1');
 });
 
 Route::get('lima', function () {
-	return view('js2');
+	return view('js1');
 });
 
 Route::get('enam', function () {
-	return view('linktree');
+	return view('js2');
 });
 
 Route::get('tujuh', function () {
+	return view('linktree');
+});
+
+Route::get('delapan', function () {
 	return view('index');
 });
 

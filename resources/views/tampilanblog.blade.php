@@ -77,21 +77,24 @@
       <p>Tugas 3: SIDEBAR-Bootstrap</p>
     </a>
     <a href="empat" class="card">
-      <img src="image/tugas4.png" alt="FORM VALIDASI 1">
-      <p>Tugas 4: Form dan Validasi 1</p>
+      <img src="image/tugas4.png" alt="Template1">
+      <p>Tugas 4</p>
     </a>
     <a href="lima" class="card">
-      <img src="image/tugas5.png" alt="FORM VALIDASI 2">
-      <p>Tugas 5: Form dan Validasi 2</p>
+      <img src="image/tugas5.png" alt="FORM VALIDASI 1">
+      <p>Tugas 5: Form dan Validasi 1</p>
     </a>
     <a href="enam" class="card">
-      <img src="image/tugas6.png" alt="LINKTREE">
-      <p>Tugas 6: Linktree</p>
+      <img src="image/tugas6.png" alt="FORM VALIDASI 2">
+      <p>Tugas 6: Form dan Validasi 2</p>
     </a>
     <a href="tujuh" class="card">
-      <img src="image/tugas7.png" alt="ETS">
-      <p>Tugas 7: ETS</p>
+      <img src="image/tugas7.png" alt="Linktree">
+      <p>Tugas 7: Linktree</p>
     </a>
+     <a href="delapan" class="card">
+      <img src="image/tugas8.png" alt="ETS">
+      <p>Tugas 8: ETS</p>
   </div>
 
 </body>
