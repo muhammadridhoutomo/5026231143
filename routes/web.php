@@ -27,3 +27,36 @@ Route::get('blog', function () {
 });
 
 Route::get('blog', [Link::class, 'helloword']);
+
+Route::get('satu', function () {
+	return view('pertama');
+});
+
+Route::get('dua', function () {
+	return view('viewport');
+});
+
+Route::get('tiga', function () {
+	return view('tugas4');
+});
+
+Route::get('empat', function () {
+	return view('js1');
+});
+
+Route::get('lima', function () {
+	return view('js2');
+});
+
+Route::get('enam', function () {
+	return view('linktree');
+});
+
+Route::get('tujuh', function () {
+	return view('index');
+});
+
+Route::get('tugas', function () {
+	return view('tampilanblog');
+});
+
