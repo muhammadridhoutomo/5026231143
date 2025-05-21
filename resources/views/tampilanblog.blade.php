@@ -7,7 +7,8 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: #f9f9f9;
+      background: url('image/sisfor.jpg') no-repeat center center fixed;
+      background-size: cover;
       margin: 0;
       padding: 0;
       display: flex;
@@ -56,6 +57,13 @@
       font-weight: 500;
       color: #444;
     }
+
+    h1, h3 {
+    background-color: rgba(255, 255, 255, 0.8); /* kotak putih transparan */
+    padding: 10px 20px; /* ruang dalam */
+    border-radius: 8px; /* sudut membulat */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* bayangan */
+}
   </style>
 </head>
 <body>
