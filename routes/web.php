@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route; //ini import
 use App\Http\Controllers\Link; //ini import
 use App\Http\Controllers\PegawaiController; //ini importjuga
 use App\Http\Controllers\BlogController; //ini importjuga
+use App\Http\Controllers\Pegawai2Controller; //ini importjuga
 
 /*
 |--------------------------------------------------------------------------
@@ -67,13 +68,21 @@ Route::get('tugas', function () {
 });
 
 Route::get('dosen', [Link::class, 'index']);
-Route::get('/pegawai/{nama}', [PegawaiController::class, 'index']);
 
-Route::get('/formulir', [PegawaiController::class, 'formulir']);
-Route::post('/formulir/proses', [PegawaiController::class, 'proses']);
+//Route::get('/pegawai/{nama}', [Pegawai2Controller::class, 'index']);
+Route::get('/formulir', [Pegawai2Controller::class, 'formulir']);
+Route::post('/formulir/proses', [Pegawai2Controller::class, 'proses']);
 
 
 //route blog
 Route::get('/blog', [BlogController::class, 'home']);
 Route::get('/blog/tentang', [BlogController::class, 'tentang']);
 Route::get('/blog/kontak', [BlogController::class, 'kontak']);
+
+//CRUD Pegawai
+Route::get('/pegawai', [PegawaiController::class, 'index']);
+Route::get('/pegawai/tambah', [PegawaiController::class,'tambah']);
+Route::post('/pegawai/store', [PegawaiController::class,'store']);
+Route::get('/pegawai/edit/{id}', [PegawaiController::class,'edit']);
+Route::post('/pegawai/update', [PegawaiController::class,'update']);
+Route::post('/pegawai/hapus/{id}', [PegawaiController::class,'hapus']);
