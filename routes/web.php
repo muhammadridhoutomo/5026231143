@@ -5,6 +5,7 @@ use App\Http\Controllers\Link; //ini import
 use App\Http\Controllers\PegawaiController; //ini importjuga
 use App\Http\Controllers\BlogController; //ini importjuga
 use App\Http\Controllers\Pegawai2Controller; //ini importjuga
+use App\Http\Controllers\LaptopController; //ini importjuga
 
 /*
 |--------------------------------------------------------------------------
@@ -87,3 +88,12 @@ Route::get('/pegawai/edit/{id}', [PegawaiController::class,'edit']);
 Route::post('/pegawai/update', [PegawaiController::class,'update']);
 Route::post('/pegawai/hapus/{id}', [PegawaiController::class,'hapus']);
 Route::get('/pegawai/cari', [PegawaiController::class, 'cari']);
+
+//CRUD Laptop
+Route::get('/laptop', [LaptopController::class, 'index']);
+Route::get('/laptop/tambah', [LaptopController::class,'tambah']);
+Route::post('/laptop/store', [LaptopController::class,'store']);
+Route::get('/laptop/edit/{id}', [LaptopController::class,'edit']);
+Route::post('/laptop/update', [LaptopController::class,'update']);
+Route::get('/laptop/hapus/{id}', [LaptopController::class,'hapus']);
+Route::get('/laptop/cari', [LaptopController::class, 'cari']);
