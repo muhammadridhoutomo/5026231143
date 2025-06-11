@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController; //ini importjuga
 use App\Http\Controllers\BlogController; //ini importjuga
 use App\Http\Controllers\Pegawai2Controller; //ini importjuga
 use App\Http\Controllers\LaptopController; //ini importjuga
+use App\Http\Controllers\KaryawanController; //ini importjuga
 
 /*
 |--------------------------------------------------------------------------
@@ -97,3 +98,9 @@ Route::get('/laptop/edit/{id}', [LaptopController::class,'edit']);
 Route::post('/laptop/update', [LaptopController::class,'update']);
 Route::get('/laptop/hapus/{id}', [LaptopController::class,'hapus']);
 Route::get('/laptop/cari', [LaptopController::class, 'cari']);
+
+//CRUD Karyawan
+Route::get('/karyawan', [KaryawanController::class, 'index']);
+Route::get('/karyawan/tambah', [KaryawanController::class,'tambah']);
+Route::post('/karyawan/store', [KaryawanController::class,'store']);
+Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class,'hapus']);
