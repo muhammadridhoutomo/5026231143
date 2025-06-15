@@ -7,6 +7,8 @@ use App\Http\Controllers\BlogController; //ini importjuga
 use App\Http\Controllers\Pegawai2Controller; //ini importjuga
 use App\Http\Controllers\LaptopController; //ini importjuga
 use App\Http\Controllers\KaryawanController; //ini importjuga
+use App\Http\Controllers\KeranjangBelanjaController; //ini importjuga
+use App\Http\Controllers\KaryawanGenapController; //ini importjuga
 
 /*
 |--------------------------------------------------------------------------
@@ -104,3 +106,10 @@ Route::get('/karyawan', [KaryawanController::class, 'index']);
 Route::get('/karyawan/tambah', [KaryawanController::class,'tambah']);
 Route::post('/karyawan/store', [KaryawanController::class,'store']);
 Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class,'hapus']);
+
+//CRUD LATIHAN 1 KERANJANGBELANJA
+Route::get('/keranjangbelanja', [KeranjangBelanjaController::class,'index'] );
+Route::get('/keranjangbelanja/tambah', [KeranjangBelanjaController::class,'tambah'] );
+Route::post('/keranjangbelanja/beli', [KeranjangBelanjaController::class,'store'] );
+Route::get('/keranjangbelanja/hapus/{id}', [KeranjangBelanjaController::class,'hapus'] );
+
