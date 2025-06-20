@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\DB;
 
 class NilaiController extends Controller
 {
-    // Menampilkan halaman index
     public function index()
     {
         $nilai = DB::table('nilai')->get();
@@ -15,17 +14,16 @@ class NilaiController extends Controller
 
     }
 
-    // Menampilkan form tambah data
     public function tambah()
     {
         return view('nilai/tambahdata');
     }
 
-    // Menyimpan data ke database
+
     public function store(Request $request)
     {
 
-        // Simpan ke tabel
+
         DB::table('nilai')->insert([
         'nomerinduksiswa' => $request->nomerinduksiswa,
             'nilaiangka' => $request->nilaiangka,
