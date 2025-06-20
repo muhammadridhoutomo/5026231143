@@ -9,6 +9,7 @@ use App\Http\Controllers\LaptopController; //ini importjuga
 use App\Http\Controllers\KaryawanController; //ini importjuga
 use App\Http\Controllers\KeranjangBelanjaController; //ini importjuga
 use App\Http\Controllers\KaryawanGenapController; //ini importjuga
+use App\Http\Controllers\NilaiController; //ini importjuga
 
 /*
 |--------------------------------------------------------------------------
@@ -112,4 +113,22 @@ Route::get('/keranjangbelanja', [KeranjangBelanjaController::class,'index'] );
 Route::get('/keranjangbelanja/tambah', [KeranjangBelanjaController::class,'tambah'] );
 Route::post('/keranjangbelanja/beli', [KeranjangBelanjaController::class,'store'] );
 Route::get('/keranjangbelanja/hapus/{id}', [KeranjangBelanjaController::class,'hapus'] );
+
+//LATIHAN EAS
+// use App\Http\Controllers\CounterController;
+// Route::get('/', [CounterController::class, 'index']);
+
+// //LATIHAN EAS
+// use App\Http\Controllers\MahasiswaController;
+// Route::get('/mahasiswa', [MahasiswaController::class, 'index'])->name('mahasiswa.index');
+// Route::get('/mahasiswa/{nrp}', [MahasiswaController::class, 'show'])->name('mahasiswa.show');
+// Route::get('/mahasiswa/{nrp}/edit', [MahasiswaController::class, 'edit'])->name('mahasiswa.edit');
+// Route::post('/mahasiswa/{nrp}', [MahasiswaController::class, 'update'])->name('mahasiswa.update');
+
+
+Route::get('/eas', [NilaiController::class,'index'] );
+Route::get('/eas/tambah', [NilaiController::class,'tambah'] );
+Route::post('/eas/store', [NilaiController::class,'store'] );
+
+
 
